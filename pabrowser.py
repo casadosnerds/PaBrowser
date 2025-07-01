@@ -173,13 +173,13 @@ class PaBrowser(QMainWindow):
 
         privacy_action = QAction("Política de Privacidade", self)
         privacy_action.triggered.connect(
-            lambda: self.browser.setUrl(QUrl("https://seusite.com/privacidade"))
+            lambda: self.browser.setUrl(QUrl("https://casaodsnerd.github.io/pabrowser-app/privacidade.html"))
         )
         settings_menu.addAction(privacy_action)
 
         about_action = QAction("Sobre", self)
         about_action.triggered.connect(
-            lambda: self.browser.setUrl(QUrl("https://seusite.com/sobre"))
+            lambda: self.browser.setUrl(QUrl("https://casaodsnerd.github.io/pabrowser-app/sobre.html"))
         )
         settings_menu.addAction(about_action)
 
