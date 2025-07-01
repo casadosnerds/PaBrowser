@@ -1,0 +1,43 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# PyInstaller
+*.spec
+
+# PyInstaller build folders
+build/
+dist/
+
+# Editor/IDE configs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# macOS system files
+.DS_Store
+
+# Logs
+*.log
+
+# PyCharm
+*.iml
+out/
+
+# Misc
+*.swp
+*~
