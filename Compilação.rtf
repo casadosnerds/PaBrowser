@@ -1,21 +1,12 @@
-{\rtf1\ansi\ansicpg1252\cocoartf2821
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\froman\fcharset0 Times-Roman;}
-{\colortbl;\red255\green255\blue255;}
-{\*\expandedcolortbl;;}
-\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
-\deftab720
-\pard\pardeftab720\sa240\partightenfactor0
+MACOS:
+pyinstaller --windowed --name PaBrowser --icon=icons/pabrowser.icns --add-data "icons:icons" pabrowser.py
 
-\f0\fs24 \cf0 \expnd0\expndtw0\kerning0
-MACOS:\
-pyinstaller --windowed --name PaBrowser --icon=icons/pabrowser.icns --add-data "icons:icons" pabrowser.py\
-Para DMG\
-create-dmg \\\
-  --volname "PaBrowser" \\\
-  --window-pos "200 120" \\\
-  --window-size "600 400" \\\
-  --hide-extension "PaBrowser.app" \\\
-  --app-drop-link \\\
-  "PaBrowser.dmg" \\\
-  "./PaBrowser.app"\
-}
+Criar DMG
+create-dmg \
+  --volname "PaBrowser" \
+  --window-pos "200 120" \
+  --window-size "600 400" \
+  --hide-extension "PaBrowser.app" \
+  --app-drop-link \
+  "PaBrowser.dmg" \
+  "./PaBrowser.app"
