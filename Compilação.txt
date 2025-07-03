@@ -10,3 +10,14 @@ create-dmg \
   --app-drop-link \
   "PaBrowser.dmg" \
   "./PaBrowser.app"
+
+
+WINDOWS
+pyinstaller --onefile --windowed --icon=icons/pabrowser.ico --add-data "icons;icons" pabrowser.py
+
+
+LINUX
+pyinstaller --noconfirm --onefile --windowed --add-data "icons:icons" pabrowser.py
+
+AppImage
+appimagetool PaBrowser.AppDir
